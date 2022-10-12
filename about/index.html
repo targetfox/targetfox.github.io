@@ -1,18 +1,146 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Target Fox Limited</title>
+<title>關於我們 | Target Fox Limited</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Nunito&display=swap" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-<link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+<link href="../lib/flaticon/font/flaticon.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
 <style>
+	h1, h2, h3, h4 {
+		padding: 0 10px;
+	}
+	
+	p {
+		word-wrap: break-word;
+	}
+	
+	.footer-detail {
+		padding-bottom: 10px;
+	}
+	
+	.fa-whatsapp  {
+		color:#49e36c;	
+
+	}
+	
+	.fa-whatsapp:hover  {
+		color:#88e79e;
+	}
+	
+	.whatsapp-link {   
+		position: fixed;
+		right: 30px;
+		bottom: 30px;
+	}
+	
+	@media (min-width: 576px) {
+	.footer-detail {
+		display: flex;
+		justify-content: center;
+	}
+	}
+	
+	@media (min-width: 768px) {
+	.footer-detail {
+		display: flex;
+		justify-content: center;
+	}
+	}
 </style>
 <head>
 <body>
-   hihihihi
+	<!-- Header Start -->
+    <div class="container-fluid bg-light position-relative shadow">
+        <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5">
+            <a href="/">
+				<img src = "../image/logo.png" height="80px" width="220px"/>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+			<div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+				<div class="navbar-nav font-weight-bold mx-auto py-0"></div>
+				<a href="/" class="nav-item nav-link active">主頁</a>
+				<a href="/about" class="nav-item nav-link active">關於我們</a>
+				<a href="/contact" class="nav-item nav-link active">聯絡我們</a>
+			</div>
+        </nav>
+    </div>
+    <!-- Header End -->
+
+   	<!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img class="img-fluid rounded mb-5 mb-lg-0" src="../image/about.jpg">
+                </div>
+                <div class="col-lg-7">
+                    <p class="section-title pr-5"><span class="pr-2">關於我們</span></p>
+                    <h1 class="mb-4">背景、服務宗旨</h1>
+                    <p>雲科 (Target Fox) 成立於2019年04月，由熟識企業融資的專業人士和擁有二十年稅務和會計經驗的執業會計師所組成的顧問團隊。</p>
+					<p>經營一間公司，總會遇上不少財務周轉的時候，而需要向香港銀行、融資公司等作商業借貸。但很多時候，在你需要透過銀行職員申請時，香港銀行的借貸制度往往令你卻步。在未能得到銀行、融資公司的幫忙下，經營便困難重重。這時候，雲科 (Target Fox) 可以幫到你！</p>
+					<p>本公司以香港為基地，憑著深厚的企業融資知識及廣闊的金融人脈網絡，致力為各企業提供專業且可靠的商業貸款策劃、信貸分析、比較各銀行的貸款產品資訊及審批準則，務求提供最合適的融資方案，配合一站式的稅務和會計工作，致力幫客戶向銀行及金融機構爭取最佳的融資借貸條件。與此同時，每個個案均有專業同事跟進，確保順利獲得貸款，時間效益亦是我們為客戶考慮貸款金額的另一重點。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+	
+	<!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 py-5 px-sm-3 px-md-5 text-center">
+		<h3 class="text-primary mb-4">Get In Touch</h3>
+		
+		<div class="footer-detail">
+			<div class="d-sm-inline-block">
+				<div class="d-flex">
+					<h4 class="fa fa-map-marker-alt text-primary"></h4> 
+					<h5 class="text-white">地址</h5>
+				</div>
+				<div class="pl-3">
+					<p>Unit 1110, 11/F, Apec Plaza</p>
+					<p>49 Hoi Yuen RoadKwun Tong, Hong Kong</p>
+					<p>觀塘開源道49號創貿廣場11樓1110室</p>
+				</div>
+			</div>
+			<div class="d-sm-inline-block">
+				<div class="d-flex">
+					<h4 class="fa fa-phone-alt text-primary"></h4>
+					<h5 class="text-white">聯絡電話</h5>
+				</div>
+				<div class="pl-3">
+					<p><a href="tel:35908004">3590 8004</a></p>
+				</div>
+			</div>
+			<div class="d-sm-inline-block">
+				<div class="d-flex">
+					<a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0"
+                        style="width: 38px; height: 38px;" href="https://www.facebook.com/TARGETFOXLIMITED" target="_blank"><i class="fab fa-facebook-f"></i></a>
+				</div>
+			</div>
+		</div>
+        <div class="container-fluid pt-5" style="border-top: 1px solid rgba(23, 162, 184, .2);">
+            <p class="m-0 text-center text-white">
+				&copy; 2022. <a class="text-primary font-weight-bold" href="/"> Target Fox Limited</a> All Rights Reserved.
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+	
+	<!-- Whatsapp Icon -->
+	<a href="https://wa.me/85263796758" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp fa-4x"></i></a>
+	
+	<!-- Back to Top -->
+    <a href="#" class="btn btn-primary p-3 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+	
+	<!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+	<script src="../lib/easing/easing.min.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
