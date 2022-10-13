@@ -64,6 +64,25 @@ body {
   background-color: #fff;
 }
 
+.footer-detail {
+	padding-bottom: 10px;
+}
+	
+.fa-whatsapp  {
+	color:#49e36c;	
+
+}
+
+.fa-whatsapp:hover  {
+	color:#88e79e;
+}
+
+.whatsapp-link {   
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+}
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -82,6 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  word-wrap: break-word;
 }
 
 abbr[title],
@@ -362,7 +382,8 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Handlee", cursive;
+  padding: 0 5px;
+  font-family: "Handlee", cursive, Microsoft Yahei,"微軟正黑體",Microsoft JhengHei,Helvetica Neue,Verdana,Arial,LiHei Pro Medium,Helvetica,sans-serif;
   font-weight: bold;
   line-height: 1.2;
   color: #00394f;
@@ -869,6 +890,13 @@ pre code {
 }
 
 @media (min-width: 576px) {
+  .footer-detail {
+	display: flex;
+	justify-content: center;
+  }
+}
+
+@media (min-width: 576px) {
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -1031,6 +1059,13 @@ pre code {
   }
   .offset-sm-11 {
     margin-left: 91.66667%;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-detail {
+	display: flex;
+	justify-content: center;
   }
 }
 
